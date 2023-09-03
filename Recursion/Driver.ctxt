@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ This\ class\ is\ the\ driver\ of\ the\ FindFile\ class\ and\ is\ used\n\ to\ find\ the\ files\ and\ to\ test\ if\ the\ code\ for\ that\ class\n\ works.\n\n\ @author\ Iakjot\ Kaur\n\ @version\ May\ 12th,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ This\ method\ is\ the\ main\ method\ to\ test\ the\ code\ of\ the\ FindFile\ class.\n\ \n\ I\ made\ a\ variable\ of\ the\ max\ files\ and\ then\ \n\ stored\ the\ files\ in\ strings\ and\ then\ made\ a\ new\ object\ of\ a\ file\ to\ test\ it.\n\ Used\ try-catch\ statements\ to\ handle\ exceptions.\n\n\ @param\:\ none\n\ return\:\ int\n
+numComments=2

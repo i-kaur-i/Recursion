@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ItemNotFoundException
+comment0.text=\n\ This\ class\ is\ to\ print\ out\ an\ exception\ that\ extends\ the\ exception\ class.\n\ This\ exception\ is\ for\ the\ search\ algorithm.\n\n\ @author\ Iakjot\ Kaur\n\ @version\ November\ 7th,\ 2019\n
+comment1.params=
+comment1.target=ItemNotFoundException()
+comment1.text=\n\ This\ constructor\ is\ to\ print\ out\ the\ message.\n\ \n\ I\ printed\ out\ the\ message\ needed.\n\n\ @param\:\ none\n\ *return\:\ none\n
+comment2.params=x
+comment2.target=ItemNotFoundException(java.lang.String)
+comment2.text=\n\ This\ constructor\ is\ to\ print\ the\ message\ if\ it\ isn't\ empty.\n\ \n\ I\ printed\ the\ string\ passed\ in.\n\n\ @param\:\ string\n\ *return\:\ none\n
+numComments=3

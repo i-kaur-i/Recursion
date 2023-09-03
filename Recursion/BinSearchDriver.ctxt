@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=BinSearchDriver
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ TODO\:\ Be\ sure\ to\ change\ the\ FILE_AND_PATH\ to\ point\ to\ your\ local\n\ copy\ of\ longwords.txt\ or\ a\ FileNotFoundException\ will\ result\n
+comment2.params=wordsToSearch\ target
+comment2.target=void\ tryBinarySearch(java.lang.String[],\ java.lang.String)
+comment2.text=\n\ Method\ tryBinarySearch\n\ precondition\:\ wordsToSearch\ is\ a\ nonempty\ array\ of\ Strings,\ and\ target\ is\na\ non-null\ string\ to\ search\ for\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ our\ collection\ of\ strings\n\ postcondition\:\ Uses\ a\ BinarySearch\ object\ (which\ implements\ this\ style\ of\nsearch)\ to\ try\ to\ find\ the\ target\ string\n
+comment3.params=wordsToSearch\ target
+comment3.target=void\ tryLinearSearch(java.lang.String[],\ java.lang.String)
+comment3.text=\n\ Method\ tryLinearSearch\n\ precondition\:\ wordsToSearch\ is\ a\ nonempty\ array\ of\ Strings,\ and\ target\ is\na\ non-null\ string\ to\ search\ for\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ our\ collection\ of\ strings\n\ postcondition\:\ Uses\ a\ LinearSearch\ object\ to\ try\ to\ find\ the\ target\ string\n
+numComments=4

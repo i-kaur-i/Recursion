@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LinearSearch
+comment0.text=\n\ The\ class\ LinearSearch\ extends\ the\ SearchAlgorithm\ class.\ It\ is\ used\n\ to\ find\ a\ value\ in\ an\ array.\ The\ ItemNotFoundException\ made\ and\ used\ SearchAlgorithm\n\ to\ implement\ a\ linear\ search.\n\n\ @author\ Iakjot\ Kaur\n\ @version\ November\ 7th,2019\n
+comment1.params=words\ wordToFind
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=\n\ This\ method\ is\ to\ search\ the\ array\ to\ find\ the\ word\ we\ are\ looking\ for.\n\ \n\ I\ used\ a\ for\ loop\ to\ loop\ through\ the\ array\ and\ if\ the\ word\ is\ found\n\ and\ then\ returned\ the\ index\ of\ where\ it\ is\ at.\n\n\ @param\:\ string[],\ string\n\ *return\:\ int\n
+comment2.params=words\ wordToFind
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment2.text=\n\ This\ method\ is\ to\ take\ care\ of\ a\ possible\ error.\ \n\ \n\ If\ the\ length\ is\ zero\ then\ I\ throw\ an\ exception.\ I\ returned\ the\ index\n\ of\ the\ word\ is\ found\ and\ incremented\ the\ index\ if\ not.\n\n\ @param\:\ string[],\ string\n\ *return\:\ int\n
+numComments=3

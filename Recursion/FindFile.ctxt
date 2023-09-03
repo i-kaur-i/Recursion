@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FindFile
+comment0.text=\n\ This\ class\ is\ to\ serach\ for\ the\ file\ in\ the\ dicrectory\ by\n\ using\ recursion.\n\n\ @author\ Iakjot\ Kaur\n\ @version\ May\ 12th,\ 2020\n
+comment1.params=maxFiles
+comment1.target=FindFile(int)
+comment1.text=\n\ This\ constructor\ is\ to\ take\ the\ maximum\ number\ of\ files.\n\ \n\ I\ passed\ in\ the\ maxFiles\ to\ initalize\ it\ and\ set\ the\ count\ to\ zero\n\ to\ begin.\ I\ stored\ the\ files\ into\ the\ array\ of\ files.\n\nPRE\:\ number\ of\ files\nPOST\:\ initalizes\ the\ variables\n\ @param\:\ int\n\ *return\:\ none\n
+comment2.params=target\ dirName
+comment2.target=void\ directorySearch(java.lang.String,\ java.lang.String)
+comment2.text=\n\ This\ method\ is\ to\ search\ for\ the\ file\ when\ the\ directory\ is\ given.\n\ \n\ I\ made\ a\ new\ file\ and\ stored\ it\ into\ the\ file\ array.\ Then\ I\ looped\ through\n\ the\ files\ and\ checked\ if\ the\ name\ is\ equal\ to\ the\ target,\ and\ if\ it\ is,\n\ then\ I\ get\ the\ path\ of\ the\ file\ and\ increment\ the\ count.\ If\ the\ file\ is\ in\ the\ \n\ directory\ then\ I\ use\ recursion\ to\ get\ the\ target\ and\ path\ of\ the\ file.\ Then\ used\n\ invarients\ to\ throw\ the\ exceptions.\n\nPRE\:\ file,\ directory,\ and\ target\nPOST\:\ finds\ the\ target\n\ @param\:\ string\n\ *return\:\ none\n
+comment3.params=
+comment3.target=int\ getCount()
+comment3.text=\n\ This\ method\ is\ to\ get\ the\ count.\n\ \n\ I\ returned\ the\ count\ of\ the\ instance\ variable.\n\nPRE\:\ count\ variable\nPOST\:\ returns\ the\ count\n\ @param\:\ none\n\ *return\:\ int\n
+comment4.params=
+comment4.target=java.lang.String[]\ getFilenames()
+comment4.text=\n\ This\ method\ is\ to\ get\ the\ string\ files.\n\ \n\ I\ returned\ the\ files\ from\ the\ instance\ variables.\n\nPRE\:\ array\ \nPOST\:\ returns\ the\ array\ of\ file\ names\n\ @param\:\ none\n\ *return\:\ String[]\n
+comment5.params=
+comment5.target=int\ getMaxFiles()
+comment5.text=\n\ This\ method\ is\ to\ get\ the\ maximum\ number\ of\ files.\n\ \n\ I\ returned\ the\ instance\ variable\ of\ the\ maxFiles.\n\nPRE\:\ variable\ for\ max\ files\nPOST\:\ returns\ the\ max\ files\n\ @param\:\ none\n\ *return\:\ int\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ This\ method\ is\ to\ print\ out\ the\ files.\n\ \n\ I\ checked\ if\ the\ count\ isn't\ 0\ and\ then\ looped\ through\ the\ array\n\ to\ get\ the\ file\ names.\n\n\ @param\:\ none\n\ *return\:\ String\n
+numComments=7

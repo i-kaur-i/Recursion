@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinarySearch
+comment0.text=\n\ this\ class\ implements\ binary\ search\ to\ find\ a\ value\ in\ array.\ It\ uses\n\ a\ recursive\ search.\n\n\ @author\ Iakjot\ Kaur\n\ @version\ November\ 7th,2019\n
+comment1.params=words\ wordToFind
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=\n\ This\ method\ is\ to\ search\ the\ file\ and\ find\ the\ targeted\ item.\n\ \n\ I\ made\ variables\ for\ the\ highest,\ lowest,\ and\ the\ middle\ index.\ And\ made\ sure\n\ the\ left\ index\ was\ larger\ than\ the\ right\ and\ gave\ the\ middle\ index\ a\ value\ and\ \n\ returned\ it.\ I\ compared\ the\ middle\ index\ to\ the\ word\ to\ find\ and\ stored\ it\ in\n\ the\ values\ that\ belong\ to\ each\ other.\n\n\ @param\:\ string[],\ string\n\ *return\:\ int\n
+comment2.params=words\ wordToFind
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment2.text=\n\ This\ method\ is\ to\ search\ for\ the\ targeted\ value\ with\ more\ parameters.\n\ \n\ I\ stored\ the\ the\ variables\ and\ then\ compared\ the\ lowest\ index\ to\n\ the\ highest\ and\ if\ the\ smallest\ one\ was\ less\ than\ the\ bigger\ one,\ then\ \n\ i\ stored\ the\ information\ into\ a\ variable.\ Then\ i\ made\ sure\ the\ invarients\n\ where\ correct.\n\n\ @param\:\ string[],\ string\n\ *return\:\ int\n
+comment3.params=words\ wordToFind\ leftIndex\ rightIndex
+comment3.target=int\ recHelper(java.lang.String[],\ java.lang.String,\ int,\ int)
+comment3.text=\n\ This\ method\ is\ to\ make\ sure\ the\ recursive\ works\ with\ the\ indexs.\n\ \n\ I\ made\ sure\ the\ variables\ are\ stored,\ and\ then\ i\ comapared\ the\ middle\ indexes\n\ with\ the\ word\ that\ is\ needed\ to\ find.\n\n\ @param\:\ string[],\ string\n\ *return\:\ int\n
+numComments=4

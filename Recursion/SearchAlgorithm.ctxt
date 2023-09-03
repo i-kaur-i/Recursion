@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SearchAlgorithm
+comment0.text=\n\n\ SearchAlgorithm\n\ \ \ \ A\ class\ used\ to\ delegate\ a\ search\ strategy\ or\ style\n\n\ @author\:\ originally\ by\ cfolsen,\ this\ version\ modified\ by\ rnash\n
+comment1.params=words\ wordToFind
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=\n\ Method\ search\:\ a\ "to-be-defined"\ method\ used\ to\ implement\ a\ specific\n\ \ \ \ search\ strategy\ over\ the\ given\ array\ looking\ for\ the\ target\ word\n\ Precondition\:\ words\ is\ a\ nonempty\ array\ and\ target\ is\ a\ non-null\ string\n\ Postcondition\:\ if\ the\ target\ word\ is\ found,\ return\ its\ index.\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ If\ not\ found,\ throw\ an\ ItemNotFoundException\ (a\ subclass\n\ \ \ \ which\ you\ have\ to\ make)\n\n
+comment2.params=words\ wordToFind
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment3.params=
+comment3.target=void\ incrementCount()
+comment4.params=
+comment4.target=int\ getCount()
+comment4.text=\n\ This\ method\ is\ to\ get\ the\ count.\n\ \n\ I\ returned\ the\ count\ variable.\n\n\ @param\:\ none\n\ *return\:\ int\n
+comment5.params=
+comment5.target=void\ resetCount()
+comment5.text=\n\ This\ method\ is\ to\ reset\ the\ count.\n\ \n\ this\ resets\ the\ count\ of\ the\ files.\n\n\ @param\:\ none\n\ *return\:\ none\n
+numComments=6
